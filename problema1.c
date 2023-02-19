@@ -3,7 +3,7 @@
 
 
 double F(double t, double x[], double f[]) {
-// Insertar aquí las definiciones de las funciones f_i(t, x0, x1, ..., x_M-1) 
+// Insertar aqui las definiciones de las funciones f_i(t, x0, x1, ..., x_M-1) 
 // que constituyen el sistema de ecuaciones diferenciales. 
 // Tener en cuenta que los indices van de 0 a M-1    
 f[0] = 10*(x[1] - x[0]);
@@ -98,7 +98,7 @@ for(j=0;j<M;j++) {
 fprintf(datos, "%lf ", xf[j]);  }
 fprintf(datos, "\n");
 
-// Copiamos valores finales en iniciales para la siguiente iteración 
+// Copiamos valores finales en iniciales para la siguiente iteracion 
 t0 = tf;
 for(j=0;j<M;j++) {
 x0[j] = xf[j];  }
